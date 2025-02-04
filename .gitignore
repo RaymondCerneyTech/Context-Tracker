@@ -1,0 +1,84 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env
+.env.local
+*.sqlite3
+
+# Python package dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+nohup.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker files
+*.tar
+docker-compose.override.yml
+*.pid
+
+# Redis & PostgreSQL Data
+redis-data/
+postgres-data/
+*.pgdata
+
+# Ignore migrations and database dumps (if applicable)
+migrations/
+dump.sql
+
+# Ignore compiled and temporary files
+*.out
+*.o
+*.obj
+*.so
+*.a
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# FastAPI static/media/uploads (if using file uploads)
+static/
+media/
+uploads/
+
+# Ignore any compiled wheels
+dist/
+build/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Ignore testing artifacts
+.pytest_cache/
+.tox/
+
+# Ignore Git secrets (recommended if using git-secrets)
+.git-secrets/
+
+# Ignore sensitive files
+secrets.json
+config.yaml
